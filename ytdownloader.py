@@ -57,7 +57,6 @@ def main():
     )
     pytube.request.default_range_size = 1048576  # this is for chunck size, 1MB size
     url = input(Fore.LIGHTCYAN_EX + "Video URL: " + Fore.LIGHTMAGENTA_EX)
-    dir_path = os.path.dirname(os.path.realpath(__file__))
     path = str(Path.home() / "Downloads")
     ytube = yt(url, on_progress_callback=pyc.on_progress)
     streams = ytube.streams
