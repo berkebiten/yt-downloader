@@ -6,7 +6,6 @@ import sys
 import warnings
 import pytube.cli as pyc
 import math
-import os
 from pathlib import Path
 
 if not sys.warnoptions:
