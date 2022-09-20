@@ -12,13 +12,6 @@
 <!-- ABOUT THE PROJECT -->
 ![Product Name Screen Shot](https://raw.githubusercontent.com/berkebiten/ytdownloader/master/ytdownloaderdemo.gif)
 
-### Built With
-
-  [![Python][Python]][Python]
-* [pytube](https://pypi.org/project/pytube/)
-* [Pillow](https://pypi.org/project/Pillow/)
-* [colorama](https://pypi.org/project/colorama/)
-* [PyInstaller](https://pypi.org/project/pyinstaller/)
 
 ### Usage
 
@@ -28,5 +21,12 @@
 4. It will start downloading the video into your default downloads folder
 
 
+### Built With
+
+[![Python][Python]][Python]
+* [pytube](https://pypi.org/project/pytube/)
+* [Pillow](https://pypi.org/project/Pillow/)
+* [colorama](https://pypi.org/project/colorama/)
+* [PyInstaller](https://pypi.org/project/pyinstaller/)
 <!-- MARKDOWN LINKS & IMAGES -->
 [Python]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
