@@ -69,7 +69,7 @@ def main():
         Fore.RED,
     )
     highest_res.download(path)
-    print(Fore.GREEN + "Download Completed.")
+    print(Fore.GREEN + "Download Completed..")
 
 
 output()
