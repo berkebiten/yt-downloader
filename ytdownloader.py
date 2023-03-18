@@ -37,23 +37,22 @@ def output():
     draw = ImageDraw.Draw(image)
     draw.text((0, 0), ShowText, font=font)  # render the text to the bitmap
     print(
-        Fore.LIGHTCYAN_EX,
-        "\n-------------------------------------------------------------------------",
+        Fore.LIGHTCYAN_EX +
+        "\n-------------------------------------------------------------------------"
     )
     for r in range(size[1]):
-        print(
-            Fore.YELLOW + "".join([mapBitToChar(image, c, r) for c in range(size[0])])
-        )
+        print(Fore.YELLOW +
+              "".join([mapBitToChar(image, c, r) for c in range(size[0])]))
     print(
-        Fore.YELLOW,
-        "\n                                                        berkebiten (2022)",
+        Fore.YELLOW +
+        "\n                                                        berkebiten (2022)"
     )
 
 
 def main():
     print(
-        Fore.LIGHTCYAN_EX,
-        "\n-------------------------------------------------------------------------",
+        Fore.LIGHTCYAN_EX +
+        "\n-------------------------------------------------------------------------"
     )
     pytube.request.default_range_size = 1048576  # this is for chunck size, 1MB size
     url = input(Fore.LIGHTCYAN_EX + "Video URL: " + Fore.LIGHTMAGENTA_EX)
@@ -77,7 +76,6 @@ cont = "1"
 while cont == "1":
     main()
     cont = input(
-        Fore.LIGHTCYAN_EX
-        + "Enter \n-> '1' to download another video \n-> '2' to stop the program\n "
-        + Fore.LIGHTMAGENTA_EX,
-    )
+        Fore.LIGHTCYAN_EX +
+        "Enter \n-> '1' to download another video \n-> '2' to stop the program\n "
+        + Fore.LIGHTMAGENTA_EX)
